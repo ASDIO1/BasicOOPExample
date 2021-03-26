@@ -8,8 +8,8 @@ namespace OOPExample
     {
         public void TurnOnConsoleRemotely()
         {
-            Console.WriteLine("Turns on console with remote controller");
             TurnConsoleOn();
+            Console.WriteLine(" With a remote controller");
         }
 
     }

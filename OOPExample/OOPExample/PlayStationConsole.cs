@@ -11,24 +11,24 @@ namespace OOPExample
             On,
             Off
         }
-        // Porperties / Atributes
-        public PowerState power;
-
-        //Constructor
+        //PROPERTIES
+        private PowerState _Power;
+        public string ConsoleName { get; set; }
+        //CONTRSUCTOR
         public PlayStationConsole()
         {
-            power = PowerState.Off;
+            _Power = PowerState.Off;
+            ConsoleName = "Someone";
         }
-
-        // Methods
+        //METHODS
         public void TurnConsoleOn()
         {
-            power = PowerState.On;
+            _Power = PowerState.On;
+            Console.Write($"Turning {ConsoleName}'s {this.GetType().Name} ON");
         }
-
         public void ShowConsoleState()
         {
-            Console.WriteLine($"{this.GetType().Name} state: ");
+            Console.WriteLine($"{ConsoleName}'s {this.GetType().Name} state: {_Power}");
         }
     }
 }
