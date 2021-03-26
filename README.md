@@ -9,7 +9,7 @@ These main concepts are:
 * Polimorfism
 
 ## Explanation
-Check the code and run just the "Program.cs" file that is inside the OOPExample/OOPExample folder.
+Check the code and run just the "Program.cs" file that is inside the OOPExample/OOPExample folder or directly excecute the .sln file from VisualStudio or similar.
 
 This OOP program is about Play Station Consoles.
 
