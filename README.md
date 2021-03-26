@@ -42,4 +42,4 @@ As shown in the program, we can instantiate a "PS4" console as a "PS4" or as a "
 By doing that and turning each console on, each console has the same Type (PS4) despite each console being instantiated differently.
 
 #### Extras
-I have used some extra things in this program. For example: Reflection, Interfaces, String interpolation, etc.
+I have used some extra things in this program. For example: Enums, Reflection, Interfaces, String interpolation, etc.
