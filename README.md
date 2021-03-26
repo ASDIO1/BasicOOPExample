@@ -9,7 +9,7 @@ These main concepts are:
 * Polimorfism
 
 ## Explanation
-Check the code and run just the "Program.cs" file.
+Check the code and run just the "Program.cs" file that is inside the OOPExample/OOPExample folder.
 
 This OOP program is about Play Station Consoles.
 
@@ -28,7 +28,7 @@ PS4 implements this interface just to make the console turn on remotely.
 * IRemoteControl.  Interface that is implemented by any PlayStationConsole that wants to have remote controller actions.
 Is an interface that any Console could implement and give its own logic to the interface methods.
 
-#### Enptulation
+#### Encaptulation
 Encaptulation in this example is used with the "Power" property, because it may not be a good thing to make a gaming console power state public to anything or anyone if they do not posses a PS console.
 
 In order to turn on a PS console the object has to be instantiated and the user has to turn it on with a "turnOn" method.
